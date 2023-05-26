@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/menu1"
+            android:icon="@mipmap/test2"
+            android:title="Мухомор"/>
+        <item
+            android:id="@+id/menu2"
+            android:title="Поганка"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="Ложный опенок"/>
+        <item
+            android:id="@+id/menu4"
+            android:title="Волоконница"/>
+        <item
+            android:id="@+id/menu5"
+            android:title="Маслёнок"/>
+        <item
+            android:id="@+id/menu6"
+            android:title="Подосиновик"/>
+        <item
+            android:id="@+id/menu7"
+            android:title="Грузди"/>
+        <item
+            android:id="@+id/menu8"
+            android:title="Опята"/>
+    </group>
+
+</menu>

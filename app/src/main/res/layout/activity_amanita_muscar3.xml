@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#837647"
+
+    tools:context=".amanita_muscar3">
+
+    <TextView
+        android:id="@+id/myxt2"
+        android:layout_width="375dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#9EED4982"
+        android:text="Ложные опета могут быть очень похожи на обычные опята, но содержат токсические вещества, которые могут вызвать серьезное отравление. Поэтому очень важно не путать их с безопасными грибами и не употреблять их в пищу.
+
+Если вы подозреваете, что случайно собрали ядовитые грибы или их съели, то обратитесь за медицинской помощью как можно скорее. Симптомы отравления могут проявиться через несколько часов после употребления и могут быть очень серьезными."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myxi2" />
+
+    <ImageView
+        android:id="@+id/myxi2"
+        android:layout_width="457dp"
+        android:layout_height="326dp"
+        app:layout_constraintBottom_toTopOf="@+id/myxt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@mipmap/test5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

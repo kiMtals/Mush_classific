@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#837647"
+    android:visibility="visible"
+    tools:context=".amanita_muscar1">
+
+    <TextView
+        android:id="@+id/myxt"
+        android:layout_width="345dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#9EED4982"
+        android:text="Мухомор - это ядовитый гриб из рода Аманита. Он имеет характерную форму шляпки, покрытой белыми или кремовыми чешуйками, и белую ножку. Один из самых известных видов мухомора - красный мухомор, который содержит мощный яд, вызывающий галлюцинации и другие серьезные побочные эффекты. Поэтому употребление мухомора в качестве пищи или наркотика опасно для здоровья и может быть даже смертельным."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myxi" />
+
+    <ImageView
+        android:id="@+id/myxi"
+        android:layout_width="425dp"
+        android:layout_height="330dp"
+        app:layout_constraintBottom_toTopOf="@+id/myxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@mipmap/test2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

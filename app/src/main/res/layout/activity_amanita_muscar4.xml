@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#837647"
+    tools:context=".amanita_muscar4">
+    <TextView
+        android:id="@+id/myxt2"
+        android:layout_width="345dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#9EED4982"
+        android:text="Волоконницей называют ядовитый гриб семейства паутинниковых. Такое название этот гриб приобрел из-за волокнистой ножки. По своей ядовитости волоконница превышает мухомор: в некоторых ее видах содержится в 20 раз больше мускарина, чем в красном мухоморе.Эти грибы, особенно молодые, очень похожи на съедобные грибы. Опасность этих грибов усугубляется тем, что они растут в тех же местах, что и съедобные грибы. "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myxi2" />
+
+    <ImageView
+        android:id="@+id/myxi2"
+        android:layout_width="457dp"
+        android:layout_height="326dp"
+        app:layout_constraintBottom_toTopOf="@+id/myxt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@mipmap/test6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
